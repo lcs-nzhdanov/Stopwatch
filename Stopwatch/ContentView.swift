@@ -17,6 +17,13 @@ struct ContentView: View {
                 Text("00:06:67")
                     .font(Font.system(size: 90, weight: .thin))
                     .foregroundStyle(.white)
+                
+                
+                HStack {
+                    CircleButtonPreview()
+                    
+                    CircleButtonPreview()
+                }
             }
         }
     }
