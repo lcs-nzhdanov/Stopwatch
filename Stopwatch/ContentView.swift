@@ -12,6 +12,12 @@ struct ContentView: View {
         ZStack {
             Color.black
                 .ignoresSafeArea()
+            
+            VStack {
+                Text("00:06:67")
+                    .font(Font.system(size: 90, weight: .thin))
+                    .foregroundStyle(.white)
+            }
         }
     }
 }
