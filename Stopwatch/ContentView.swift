@@ -14,6 +14,8 @@ struct ContentView: View {
                 .ignoresSafeArea()
             
             VStack {
+                Spacer()
+                
                 Text("00:06:67")
                     .font(Font.system(size: 90, weight: .thin))
                     .foregroundStyle(.white)
@@ -30,6 +32,15 @@ struct ContentView: View {
                     
                     Spacer()
                 }
+                
+                List {
+                    Text("1")
+                    Text("2")
+                    Text("3")
+                    Text("4")
+                    Text("5")
+                }
+                .frame(height: 300)
             }
         }
     }
