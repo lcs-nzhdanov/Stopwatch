@@ -20,9 +20,15 @@ struct ContentView: View {
                 
                 
                 HStack {
-                    CircleButtonPreview()
+                    Spacer()
                     
-                    CircleButtonPreview()
+                    CircleButtonPreview(buttonColor: Color.gray, label: "Reset", labelColor: Color.white)
+                    
+                    Spacer(minLength: 150)
+                    
+                    CircleButtonPreview(buttonColor: Color.green, label: "Start", labelColor: Color.white)
+                    
+                    Spacer()
                 }
             }
         }
