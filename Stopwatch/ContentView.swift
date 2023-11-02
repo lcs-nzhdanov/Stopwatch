@@ -34,14 +34,48 @@ struct ContentView: View {
                 }
                 
                 List {
-                    Text("1")
-                    Text("2")
-                    Text("3")
-                    Text("4")
-                    Text("5")
+                    Group{
+                        HStack{
+                            Text("Lap 5")
+                            Spacer()
+                            Text("00:04:61")
+                        }
+                        
+                        HStack{
+                            Text("Lap 4")
+                            Spacer()
+                            Text("00:02:22")
+                        }
+                            .foregroundStyle(Color("Dark Red"))
+                        
+                        HStack{
+                            Text("Lap 3")
+                            Spacer()
+                            Text("00:01:88")
+                        }
+                            .foregroundStyle(Color("Light Green"))
+                        
+                        HStack{
+                            Text("Lap 2")
+                            Spacer()
+                            Text("00:01:67")
+                        }
+                        
+                        HStack{
+                            Text("Lap 1")
+                            Spacer()
+                            Text("00:00:98")
+                        }
+                    }
+                    .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
+                    .font(.system(size: 20))
+                    .frame(height: 55)
                 }
                 .frame(height: 300)
+                .listStyle(.plain)
+
             }
+            .padding()
         }
     }
 }
