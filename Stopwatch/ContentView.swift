@@ -22,16 +22,26 @@ struct ContentView: View {
                 
                 
                 HStack {
-                    Spacer()
+
                     
                     CircleButtonPreview(buttonColor: Color("Dark Grey"), label: "Reset", labelColor: Color("Light Grey"))
                     
-                    Spacer(minLength: 150)
+                    Spacer()
+                    
+                    HStack {
+                        Circle()
+                            .fill(Color("Middle Grey"))
+                            .frame(width: 7.5)
+                        Circle()
+                            .fill(Color("Grey"))
+                            .frame(width: 7.5)
+                    }
+                    
+                   Spacer()
                     
                     CircleButtonPreview(buttonColor: Color("Dark Green"), label: "Start", labelColor: Color("Light Green"))
-                    
-                    Spacer()
                 }
+                .frame(height: 100)
                 
                 List {
                     Group{
