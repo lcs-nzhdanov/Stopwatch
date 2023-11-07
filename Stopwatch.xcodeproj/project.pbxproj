@@ -12,6 +12,7 @@
 		826325982AF0304B004BC906 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 826325972AF0304B004BC906 /* Assets.xcassets */; };
 		8263259B2AF0304B004BC906 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8263259A2AF0304B004BC906 /* Preview Assets.xcassets */; };
 		826325A22AF037C6004BC906 /* CircleButtonPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826325A12AF037C6004BC906 /* CircleButtonPreview.swift */; };
+		82FAA02B2AF9BE8400C71997 /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FAA02A2AF9BE8400C71997 /* ListItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		826325972AF0304B004BC906 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8263259A2AF0304B004BC906 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		826325A12AF037C6004BC906 /* CircleButtonPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonPreview.swift; sourceTree = "<group>"; };
+		82FAA02A2AF9BE8400C71997 /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				826325972AF0304B004BC906 /* Assets.xcassets */,
 				826325992AF0304B004BC906 /* Preview Content */,
 				826325A12AF037C6004BC906 /* CircleButtonPreview.swift */,
+				82FAA02A2AF9BE8400C71997 /* ListItemView.swift */,
 			);
 			path = Stopwatch;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				826325A22AF037C6004BC906 /* CircleButtonPreview.swift in Sources */,
 				826325962AF03049004BC906 /* ContentView.swift in Sources */,
 				826325942AF03049004BC906 /* StopwatchApp.swift in Sources */,
+				82FAA02B2AF9BE8400C71997 /* ListItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
